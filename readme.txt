@@ -61,7 +61,8 @@ Source: https://www.youtube.com/watch?v=SWYqp7iY_Tc
 --------------------------------------------------------------------------------
 GitHub - Remote Git Repository
 --------------------------------------------------------------------------------
- a) Create an account
+ a) Create an account (jimcall/gmail)
+    https://github.com/jimcall
 
  b) Create repository (top right-hand corner - plus sign)
     e.g. testRepo
