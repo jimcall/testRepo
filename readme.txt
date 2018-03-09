@@ -58,6 +58,17 @@ Source: https://www.youtube.com/watch?v=SWYqp7iY_Tc
  k) Display file history
     git log <file>
 
+ l) Display file history
+    git log <file>
+
+ m) Merge a branch back to the trunk
+    git checkout master     (change to the trunk branch)
+    git merge project1      (pull changes from other branch)
+      -> Automatic merge failed; fix conflicts and then commit the result
+         git status         (confirm what's required)
+         Edit file; search for <<<<<<<, >>>>>>>; select what to keep; save file
+         git add .          (accept new version of file/s)
+
 --------------------------------------------------------------------------------
 GitHub - Remote Git Repository
 --------------------------------------------------------------------------------
@@ -86,5 +97,23 @@ GitHub - Remote Git Repository
  
  h) Pull remote file from remote repository (added file from browser)
     git pull
+    
+ i) Display config values
+    git config -l                                  (list all)
+      core.editor='C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+      user.name=Jim Callaghan
+      user.email=james.andrew.callaghan@gmail.com
+      remote.origin.url=https://github.com/jimcall/testRepo.git
+      branch.master.remote=origin
+      branch.master.merge=refs/heads/master
+      ...
+
+    git config --get remote.origin.url             (specific value)
+      https://github.com/jimcall/testRepo.git
+
+    git config --get-regexp remote*                (regexp values)
+      remote.origin.url https://github.com/jimcall/testRepo.git
+      remote.origin.fetch +refs/heads/*:refs/remotes/origin/*
+      branch.master.remote origin
 
 ================================================================================
