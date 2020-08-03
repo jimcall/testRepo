@@ -1,6 +1,9 @@
 ---
 name: Bug report
 about: Create a report to help us improve
+title: "[DATE]: [FEATURE NAME]"
+labels: tracking issue, needs triage
+assignees: jimcall
 ---
 <!-- ⚠️⚠️ Do Not Delete This! bug_report_template ⚠️⚠️ -->
 <!-- Please read our Rules of Conduct: https://opensource.microsoft.com/codeofconduct/ -->
