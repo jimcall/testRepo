@@ -1,8 +1,8 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Use this template to create a 'bug' issue
 title: "[DATE]: [BUG NAME]"
-labels: tracking issue, needs triage
+labels: bug, help wanted
 assignees: jimcall
 ---
 <!-- ⚠️⚠️ Do Not Delete This! bug_report_template ⚠️⚠️ -->
@@ -13,8 +13,7 @@ assignees: jimcall
 - VSCode Version:
 - OS Version:
 
-Steps to Reproduce:
-
+##Steps to Reproduce:
 1.
 2.
 
