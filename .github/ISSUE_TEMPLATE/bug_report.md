@@ -13,7 +13,7 @@ assignees: jimcall
 - VSCode Version:
 - OS Version:
 
-##Steps to Reproduce:
+## Steps to Reproduce:
 
 1.
 2.
